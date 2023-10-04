@@ -1,0 +1,7 @@
+/*
+ * Public API Surface of ngx-pinch-zoom
+ */
+export * from './lib/interfaces';
+export * from './lib/pinch-zoom.module';
+export * from './lib/pinch-zoom.component';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljLWFwaS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3Byb2plY3RzL25neC1waW5jaC16b29tL3NyYy9wdWJsaWMtYXBpLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBOztHQUVHO0FBRUgsY0FBYyxrQkFBa0IsQ0FBQztBQUNqQyxjQUFjLHlCQUF5QixDQUFDO0FBQ3hDLGNBQWMsNEJBQTRCLENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyIvKlxyXG4gKiBQdWJsaWMgQVBJIFN1cmZhY2Ugb2Ygbmd4LXBpbmNoLXpvb21cclxuICovXHJcblxyXG5leHBvcnQgKiBmcm9tICcuL2xpYi9pbnRlcmZhY2VzJztcclxuZXhwb3J0ICogZnJvbSAnLi9saWIvcGluY2gtem9vbS5tb2R1bGUnO1xyXG5leHBvcnQgKiBmcm9tICcuL2xpYi9waW5jaC16b29tLmNvbXBvbmVudCc7XHJcbiJdfQ==
