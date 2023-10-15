@@ -251,8 +251,8 @@ export class PinchZoomComponent implements OnInit, OnDestroy {
         this.pinchZoom.toggleZoom();
     }
 
-    zoomPoint(point: MouseZoomPoint) {
-        this.pinchZoom.stepZoom('IN', point);
+    zoomPoint(point: MouseZoomPoint, scale?: number) {
+        this.pinchZoom.stepZoom('IN', point, scale);
     }
 
     zoomIn() {

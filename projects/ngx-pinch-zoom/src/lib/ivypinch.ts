@@ -615,8 +615,11 @@ export class IvyPinch {
         }
     }
 
-    stepZoom(mode: 'IN' | 'OUT', point: MouseZoomPoint = undefined) {
-            let stepZoomFactor = this.properties.stepZoomFactor || 0;
+    stepZoom(mode: 'IN' | 'OUT', point: MouseZoomPoint = undefined, scale?: number) {
+            if(scale && scale > this.maxScale){
+                scale = this.maxScale;
+            }
+            let stepZoomFactor =  scale ?? this.properties.stepZoomFactor ?? 0;
             let zoomFactor = 0
             if(mode === 'OUT') {
                 zoomFactor = -stepZoomFactor;
